@@ -4,7 +4,7 @@ maintainer_email 'guilhem.lettron@youscribe.com'
 license 'Apache-2.0'
 description 'Provider for htpasswd'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version '0.3.0'
+version '0.3.1'
 
 %w(
   centos
@@ -22,4 +22,4 @@ source_url 'https://github.com/redguide/htpasswd' if respond_to?(:source_url)
 issues_url 'https://github.com/redguide/htpasswd/issues' if respond_to?(:issues_url)
 chef_version '>= 12.8' if respond_to?(:chef_version)
 
-gem 'htauth' if respond_to?(:gem)
+gem 'htauth'
